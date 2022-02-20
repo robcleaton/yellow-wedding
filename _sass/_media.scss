@@ -1,0 +1,20 @@
+// Mobile
+@media only screen and (max-width: 600px) {
+  body {
+    background: red;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 601px) {
+  body {
+    background: pink;
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 991px) {
+  body {
+    background: black;
+  }
+}
