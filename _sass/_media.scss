@@ -1,20 +1,91 @@
+html {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🍕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+body {
+  background: #1c1a17;
+  color: #ffd457;
+  font-family: 'IBM Plex Mono', monospace;
+}
+.container {
+  text-align: left;
+  margin: 0 auto
+}
+img {
+  width: 100%;
+}
+h1 {
+  font-family: good_girl_trialregular;
+  text-transform: uppercase;
+  font-size: 262px;
+  line-height: 254px;
+  margin-top: 20px;
+  word-spacing:-3rem;
+}
+
+h2 {
+  font-family: good_girl_trialregular;
+  text-transform: uppercase;
+  font-size: 354px;
+  line-height: 344px;
+}
+
+h3 {
+  font-family: good_girl_trialregular;
+  text-transform: uppercase;
+  font-size: 181px;
+  word-spacing: -1.2rem;
+  line-height: 169px;
+}
+h4 {
+  font-size: 50px;
+}
+@font-face {
+    font-family: 'good_girl_trialregular';
+    src: url('/assets/fonts/goodgirltrial-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/goodgirltrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.strip {
+  height: 800px;
+  background: red url('https://www.horniman.ac.uk/wp-content/uploads/2020/02/Horniman-Conservatory.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+
 // Mobile
 @media only screen and (max-width: 600px) {
-  body {
-    background: red;
+
+  h1, h2, h3, h4 {
+    margin: none;
+  }
+  h1 {
+    font-size: 74px;
+    line-height: 60px;
+    word-spacing: -1rem;
+  }
+  h2 {
+    font-size: 102px;
+    line-height: 101px;
+  }
+  h3 {
+    font-size: 51px;
+    line-height: 50px;
+    word-spacing: -0.2rem;
+  }
+  h4 {
+    font-size: 20px;
   }
 }
 
 // Tablet
 @media only screen and (min-width: 601px) {
-  body {
-    background: pink;
+  h4 {
+    font-size: 40px;
   }
 }
 
 // Desktop
 @media only screen and (min-width: 991px) {
-  body {
-    background: black;
-  }
 }
