@@ -88,6 +88,9 @@ h4 {
 
 // Tablet
 @media only screen and (min-width: 601px) {
+  body {
+    background: red;
+  }
   h4 {
     font-size: 40px;
   }
@@ -95,4 +98,7 @@ h4 {
 
 // Desktop
 @media only screen and (min-width: 991px) {
+  body {
+    background: yellow;
+  }
 }
