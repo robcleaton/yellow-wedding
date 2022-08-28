@@ -73,16 +73,29 @@ h4 {
   font-size: 50px;
 }
 
-.strip {
-  height: 800px;
-  background: red url('https://www.horniman.ac.uk/wp-content/uploads/2020/02/Horniman-Conservatory.jpg') center center no-repeat;
-  background-size: cover;
-}
+
 
 
 
 // Mobile
 @media only screen and (max-width: 600px) {
+
+  .full-width.header {
+    flex-direction: column;
+  }
+  .test, .scollops, .rob-daisy, .date {
+    width: 100%;
+    border-right: none;
+  }
+  .test {
+    border-bottom: 15px solid white;
+  }
+  .full-width.copy {
+    padding: 50px;
+  }
+  .strip {
+    height: 460px;
+  }
 
   h1, h2, h3, h4 {
     margin: none;

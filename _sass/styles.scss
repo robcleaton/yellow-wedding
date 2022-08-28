@@ -1,6 +1,7 @@
-
+body {
+  background: #efefe1;
+}
 .full-width {
-  background: #F8C0C0;
   height: 600px;
   width: 100%;
   color: black;
@@ -17,6 +18,7 @@ p {
   align-items: center;
 }
 .save-date {
+  background: #F8C0C0;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -60,6 +62,7 @@ p {
 }
 
 .full-width {
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,12 +78,21 @@ p {
   border-right: 15px solid white;
 }
 .tiles {
-  background: green;
+  background: #FFCB11;
   height: 100%;
   width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.copy {
+  padding: 100px;
+}
+.strip {
+  height: 660px;
+  background: red url('https://www.horniman.ac.uk/wp-content/uploads/2020/02/Horniman-Conservatory.jpg') center center no-repeat;
+  background-size: cover;
 }
 /*
 .col-full {
