@@ -1,0 +1,130 @@
+
+.full-width {
+  background: #F8C0C0;
+  height: 600px;
+  width: 100%;
+  color: black;
+  text-align: center;
+  border-bottom: 15px solid white;
+}
+p {
+  text-align: center;
+  margin: auto;
+}
+.full-width.save-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.save-date {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test {
+  background: red;
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  border-right: 15px solid white;
+}
+.scollops, .rob-daisy {
+  color: white;
+  height: 50%;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scollops {
+  background: #73C2DB; border-bottom: 15px solid white;
+  width: 100%;
+}
+.rob-daisy {
+  background: #006B54;
+  width: 100%;
+}
+.date {
+  background: #FFAA7A;
+  color: #FB3F3F;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.venue {
+  background: #FF7A7A;
+  color: #C40000;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 15px solid white;
+}
+.tiles {
+  background: green;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+.col-full {
+  background: pink;
+  padding-top: 16px;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 15px solid white;
+}
+*/
+
+
+/*
+.col-2 {
+  background: #FFAA7A;
+  color: #FB3F3F;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-1, .col-2 {
+  max-width: 50%;
+  height: 100%;
+  float: left;
+  padding: 0px;
+  text-align: center;
+}
+*/
+/*
+.col-3 {
+  background: #006B54;
+  color: #FCCA1A;
+  height: 50%;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
