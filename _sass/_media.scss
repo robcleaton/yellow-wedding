@@ -2,6 +2,7 @@ html {
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🍕</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
+/*
 @font-face {
     font-family: 'good_girl_trialregular';
     src: url('./../../assets/fonts/goodgirltrial-regular-webfont.woff2') format('woff2'),
@@ -9,7 +10,15 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+*/
 
+@font-face {
+    font-family: 'Blenny';
+    src: url('./../../assets/fonts/Blenny_Trial_Blk.woff2') format('woff2'),
+         url('./../../assets/fonts/Blenny_Trial_Blk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 #top, #bottom, #left, #right {
 	background: #fff;
 	position: fixed;
@@ -46,28 +55,23 @@ body {
 img {
   width: 100%;
 }
+h1, h2, h3, h4 {
+  margin: 16px;
+}
 h1 {
-  font-family: good_girl_trialregular;
-  text-transform: uppercase;
-  font-size: 262px;
-  line-height: 254px;
-  margin-top: 20px;
-  word-spacing:-3rem;
+  font-family: Blenny;
+  font-size: 140px;
 }
 
 h2 {
-  font-family: good_girl_trialregular;
-  text-transform: uppercase;
-  font-size: 354px;
-  line-height: 344px;
+  font-family: Blenny;
+  font-size: 140px;
+  line-height: 112px;
+  letter-spacing: -4px;
 }
 
 h3 {
-  font-family: good_girl_trialregular;
-  text-transform: uppercase;
-  font-size: 181px;
-  word-spacing: -1.2rem;
-  line-height: 169px;
+  font-family: Blenny;
 }
 h4 {
   font-size: 50px;
@@ -79,6 +83,17 @@ h4 {
 
 // Mobile
 @media only screen and (max-width: 768px) {
+  h1 {
+
+  }
+  h2 {
+    font-size: 80px;
+    line-height: 68px;
+  }
+  h3 {
+  }
+  h4 {
+  }
 
   .full-width.header {
     flex-direction: column;
@@ -86,7 +101,8 @@ h4 {
     height: auto;
   }
   .scollops {
-    height: 200px;
+    height: 140px;
+    background-size: 248px;
   }
   .col-1, .scollops, .rob-daisy, .date {
     width: 100%;
@@ -95,20 +111,35 @@ h4 {
   .col-1 {
     border-bottom: 15px solid white;
   }
-  .scollops {
-    background-size: 320px;
-  }
   .rob-daisy {
-    height: 340px;
+    height: 260px;
     img {
       margin: 60px;
-      max-height: 280px;
+      max-height: 172px;
     }
   }
   .date {
     img {
-      margin-left: 18px;
-      max-width: 440px;
+      margin: 32px;
+      margin-left: 28px;
+      max-width: 260px;
+    }
+  }
+  .full-width.horniman {
+    height: auto;
+    flex-direction: column;
+
+    .venue {
+      height: 260px;
+      border-bottom: 15px solid white;
+      img {
+        max-width: 300px;
+        margin-right: 30px;
+      }
+    }
+    .tiles {
+      height: 120px;
+      width: 100%;
     }
   }
   .full-width.copy {
@@ -116,27 +147,6 @@ h4 {
   }
   .strip {
     height: 460px;
-  }
-
-  h1, h2, h3, h4 {
-    margin: none;
-  }
-  h1 {
-    font-size: 74px;
-    line-height: 60px;
-    word-spacing: -1rem;
-  }
-  h2 {
-    font-size: 102px;
-    line-height: 101px;
-  }
-  h3 {
-    font-size: 51px;
-    line-height: 50px;
-    word-spacing: -0.2rem;
-  }
-  h4 {
-    font-size: 20px;
   }
 }
 

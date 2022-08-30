@@ -74,12 +74,6 @@ p {
 }
 .date {
   background: #FFAA7A;
-/*
-  background-image:url('../images/date.svg');
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-*/
   height: 100%;
   width: 40%;
   display: flex;
@@ -91,7 +85,9 @@ p {
   }
 }
 
-
+.full-width.horniman {
+  height: 460px;
+}
 .venue {
   background: #FF7A7A;
   color: #C40000;
@@ -108,6 +104,9 @@ p {
 }
 .tiles {
   background: #FFCB11;
+  background-image: url('../images/tile.svg');
+  background-repeat: repeat;
+  background-position: left;
   height: 100%;
   width: 45%;
   display: flex;
