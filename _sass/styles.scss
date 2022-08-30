@@ -2,12 +2,18 @@ body {
   background: #efefe1;
 }
 .full-width {
-  height: 600px;
-  width: 100%;
   color: black;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-bottom: 15px solid white;
 }
+.full-width.header {
+  height: 660px;
+}
+
 p {
   text-align: center;
   margin: auto;
@@ -19,15 +25,22 @@ p {
 }
 .save-date {
   background: #F8C0C0;
-  height: 80px;
+  background-image: url('../images/Daisy.svg');
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 110px 64px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.test {
-  background: red;
+.col-1 {
   height: 100%;
   width: 60%;
+  max-width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-right: 15px solid white;
@@ -45,28 +58,40 @@ p {
 }
 .scollops {
   background: #73C2DB; border-bottom: 15px solid white;
+  background-image: url('../images/scollops.svg');
+  background-position: 0 center;
   width: 100%;
+  height: 40%;
 }
 .rob-daisy {
   background: #006B54;
   width: 100%;
+  height: 60%;
+  img {
+    margin: 80px;
+    max-height: 320px;
+  }
 }
 .date {
   background: #FFAA7A;
-  color: #FB3F3F;
+/*
+  background-image:url('../images/date.svg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+*/
   height: 100%;
   width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
+  img {
+    margin: 40px;
+    margin-left: 28px;
+  }
 }
 
-.full-width {
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .venue {
   background: #FF7A7A;
   color: #C40000;
@@ -76,6 +101,10 @@ p {
   justify-content: center;
   align-items: center;
   border-right: 15px solid white;
+  img {
+    margin: 100px 60px;
+    max-height: 400px;
+  }
 }
 .tiles {
   background: #FFCB11;
@@ -94,49 +123,17 @@ p {
   background: red url('https://www.horniman.ac.uk/wp-content/uploads/2020/02/Horniman-Conservatory.jpg') center center no-repeat;
   background-size: cover;
 }
-/*
-.col-full {
-  background: pink;
-  padding-top: 16px;
-  width: 100%;
-  text-align: center;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 15px solid white;
-}
-*/
 
-
-/*
-.col-2 {
-  background: #FFAA7A;
-  color: #FB3F3F;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.full-width.amenities {
 }
-.col-1, .col-2 {
-  max-width: 50%;
-  height: 100%;
-  float: left;
-  padding: 0px;
-  text-align: center;
+.full-width.area {
+  flex-direction: row-reverse;
+  .venue {
+    border-left: 15px solid white;
+  }
+  .tiles {
+    background-image:url('../images/rob-test.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 }
-*/
-/*
-.col-3 {
-  background: #006B54;
-  color: #FCCA1A;
-  height: 50%;
-  max-width: 100%;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-*/

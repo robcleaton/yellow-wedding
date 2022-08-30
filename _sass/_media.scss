@@ -78,17 +78,35 @@ h4 {
 
 
 // Mobile
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   .full-width.header {
     flex-direction: column;
+    height: 1000px;
+    height: auto;
   }
-  .test, .scollops, .rob-daisy, .date {
+  .scollops {
+    height: 200px;
+  }
+  .col-1, .scollops, .rob-daisy, .date {
     width: 100%;
     border-right: none;
   }
-  .test {
+  .col-1 {
     border-bottom: 15px solid white;
+  }
+  .rob-daisy {
+    height: 340px;
+    img {
+      margin: 60px;
+      max-height: 280px;
+    }
+  }
+  .date {
+    img {
+      margin-left: 18px;
+      max-width: 440px;
+    }
   }
   .full-width.copy {
     padding: 50px;
