@@ -1,6 +1,29 @@
 body {
   background: #efefe1;
 }
+h1, h2, h3, h4 {
+  margin: 16px;
+}
+h1 {
+  font-family: Blenny;
+  font-size: 140px;
+}
+
+h2 {
+  font-family: Blenny;
+  font-size: 140px;
+  line-height: 112px;
+  letter-spacing: -4px;
+}
+h3 {
+  font-family: Blenny;
+  font-size: 60px;
+  letter-spacing: -2px;
+}
+h4 {
+  font-size: 50px;
+}
+
 .full-width {
   color: black;
   height: auto;
@@ -28,11 +51,16 @@ p {
   background-image: url('../images/Daisy.svg');
   background-repeat: repeat-x;
   background-position: center;
-  background-size: 110px 64px;
+  background-size: 82px 64px;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+  h3 {
+    background: #F8C0C0;
+    padding: 20px;
+    color: white;
+  }
 }
 .col-1 {
   height: 100%;
@@ -82,6 +110,7 @@ p {
   img {
     margin: 40px;
     margin-left: 28px;
+    max-width: 480px;
   }
 }
 
@@ -94,6 +123,8 @@ p {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  text-align: left;
   justify-content: center;
   align-items: center;
   border-right: 15px solid white;
@@ -116,6 +147,9 @@ p {
 
 .copy {
   padding: 100px;
+  p {
+    max-width: 960px;
+  }
 }
 .strip {
   height: 660px;

@@ -55,27 +55,7 @@ body {
 img {
   width: 100%;
 }
-h1, h2, h3, h4 {
-  margin: 16px;
-}
-h1 {
-  font-family: Blenny;
-  font-size: 140px;
-}
 
-h2 {
-  font-family: Blenny;
-  font-size: 140px;
-  line-height: 112px;
-  letter-spacing: -4px;
-}
-
-h3 {
-  font-family: Blenny;
-}
-h4 {
-  font-size: 50px;
-}
 
 
 
@@ -91,6 +71,7 @@ h4 {
     line-height: 68px;
   }
   h3 {
+    font-size: 32px;
   }
   h4 {
   }
@@ -123,6 +104,13 @@ h4 {
       margin: 32px;
       margin-left: 28px;
       max-width: 260px;
+    }
+  }
+  .save-date {
+    height: 80px;
+    background-size: 80px 58px;
+    h3 {
+      padding: 18px;
     }
   }
   .full-width.horniman {
