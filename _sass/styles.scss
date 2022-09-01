@@ -1,6 +1,14 @@
 body {
   background: #efefe1;
 }
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: #FFCB11;
+}
+::selection {
+  color: red;
+  background: #FFCB11;
+}
 h1, h2, h3, h4 {
   margin: 16px;
 }
@@ -22,6 +30,16 @@ h3 {
 }
 h4 {
   font-size: 50px;
+}
+a {
+  color: purple;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 
 .full-width {
@@ -169,4 +187,29 @@ p {
     background-size: cover;
     background-position: center;
   }
+}
+.full-width.rsvp {
+  flex-direction: column;
+}
+
+#mc_embed_signup, #mc_embed_signup .helper_text, #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  background: none !important;
+  font-size: 20px !important;
+}
+#mc_embed_signup .mc-field-group input {
+  font-size: 20px;
+  padding: 18px !important;
+}
+#mc_embed_signup .brandingLogo {
+  display: none;
+}
+#mc_embed_signup .button {
+  background-color: black !important;
+  font-size: 20px !important;
+}
+#mc_embed_signup {
+  font-size: 20px !important;
+}
+#mc_embed_signup .size1of2 {
+  width: 100% !important;
 }
