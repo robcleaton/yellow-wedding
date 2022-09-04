@@ -196,9 +196,17 @@ p {
   background: none !important;
   font-size: 20px !important;
 }
+#mc_embed_signup {
+  font-size: 20px !important;
+  width: 100% !important;
+  max-width: 600px;
+}
+#mc_embed_signup .indicates-required {
+  margin-right: 0px !important;
+}
 #mc_embed_signup .mc-field-group input {
   font-size: 20px;
-  padding: 18px !important;
+  padding: 8px 0px !important;
 }
 #mc_embed_signup .brandingLogo {
   display: none;
@@ -207,9 +215,15 @@ p {
   background-color: black !important;
   font-size: 20px !important;
 }
-#mc_embed_signup {
-  font-size: 20px !important;
-}
 #mc_embed_signup .size1of2 {
   width: 100% !important;
+}
+#mc_embed_signup .mc-field-group {
+  width: 100% !important;
+}
+#mc_embed_signup {
+  margin: 0px;
+}
+#mc_embed_signup form {
+  margin: 0px !important;
 }
