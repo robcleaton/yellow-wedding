@@ -190,8 +190,12 @@ p {
 }
 .full-width.rsvp {
   flex-direction: column;
+  padding: 100px 0px;
+  background: #006B54;
+  color: #FFCB11;
 }
 
+//MailChimp form overrides
 #mc_embed_signup, #mc_embed_signup .helper_text, #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
   background: none !important;
   font-size: 20px !important;
@@ -212,8 +216,20 @@ p {
   display: none;
 }
 #mc_embed_signup .button {
-  background-color: black !important;
+  background-color: #FFCB11 !important;
   font-size: 20px !important;
+  color: #006B54 !important;
+  padding: 20px 0px !important;
+  height: auto !important;
+  width: 100% !important;
+}
+#mc_embed_signup .button:hover {
+  background-color: #fff !important;
+  color: red;
+}
+#mc_embed_signup .foot {
+  grid-template-columns: 4fr 0fr !important;
+  width: 100% !important;
 }
 #mc_embed_signup .size1of2 {
   width: 100% !important;
