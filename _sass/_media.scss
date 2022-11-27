@@ -50,8 +50,9 @@ body {
 img {
   width: 100%;
 }
-
-
+iframe {
+  height: 1000px;
+}
 
 
 
@@ -132,9 +133,7 @@ img {
   .strip {
     height: 460px;
   }
-  iframe {
-    height: 1000px;
-  }
+
   #mc_embed_signup {
   }
   #mc_embed_signup form {
