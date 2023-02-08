@@ -3,11 +3,11 @@ body {
 }
 ::-moz-selection { /* Code for Firefox */
   color: red;
-  background: #FFCB11;
+  background: rgba(0,0,0,0.6);
 }
 ::selection {
-  color: red;
-  background: #FFCB11;
+  color: white;
+  background: rgba(0,0,0,0.4);
 }
 h1, h2, h3, h4 {
   margin: 16px;
@@ -174,17 +174,39 @@ p {
   background: red url('https://www.horniman.ac.uk/wp-content/uploads/2020/02/Horniman-Conservatory.jpg') center center no-repeat;
   background-size: cover;
 }
-
+.full-width.directions {
+  height: 800px;
+}
 .getting-here {
   background: #ffe8e8;
+  color: #C40000;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  border-right: 15px solid white;
+  div {
+    margin: 40px;
+  }
   ul {
-    width: 100%;
-    margin-left: 120px;
+    margin-left: 0px;
+    padding-left: 0px;
   }
   p {
-    padding: 80px;
     text-align: left;
+    margin: 0px;
+    margin-bottom: 20px;
   }
+}
+.GoogleMap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .running-order {
   background: #FFAA7A;

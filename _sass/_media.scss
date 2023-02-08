@@ -1,16 +1,9 @@
 html {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🍕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='100' viewport='0 0 100 100' style='fill:black;font-size:80px;'><text y='90%'>🍾</text></svg>") 0 0,auto; /*!emojicursor.app*/
 }
-
-/*
-@font-face {
-    font-family: 'good_girl_trialregular';
-    src: url('./../../assets/fonts/goodgirltrial-regular-webfont.woff2') format('woff2'),
-         url('./../../assets/fonts/goodgirltrial-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+html .rsvp:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='100' viewport='0 0 100 100' style='fill:black;font-size:80px;'><text y='90%'>💌</text></svg>") 0 0,auto; /*!emojicursor.app*/
 }
-*/
 
 @font-face {
     font-family: 'Blenny';
@@ -129,6 +122,18 @@ iframe.map {
       height: 310px;
       width: 100%;
     }
+  }
+  .full-width.directions {
+    flex-direction: column;
+    border-top: 15px white;
+    height: auto;
+  }
+  .GoogleMap {
+    height: 480px;
+  }
+  .running-order {
+    width: 100%;
+    padding: 48px;
   }
   .full-width.copy {
     padding: 50px;
