@@ -219,6 +219,7 @@ p {
   h2 {
     font-size: 80px;
     line-height: 72px;
+    color: #FB3F3F;
   }
   ul {
     font-size: 24px;
@@ -236,9 +237,11 @@ p {
     max-height: 320px;
   }
 }
-
-.full-width.amenities {
+.card {
+  float: left;
+  width: 25%;
 }
+
 .full-width.area {
   flex-direction: row-reverse;
   .venue {
