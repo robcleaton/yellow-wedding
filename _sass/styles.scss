@@ -191,6 +191,9 @@ p {
   justify-content: left;
   align-items: left;
   border-right: 15px solid white;
+  img {
+    width: 86%;
+  }
   div {
     margin: 40px;
   }
@@ -212,6 +215,36 @@ p {
   align-items: center;
 }
 .accommodation {
+  h3 {
+    font-size: 80px;
+    color: #006B54;
+  }
+  .card {
+    float: left;
+    width: 21%;
+    margin-bottom: 40px;
+    font-size: 14px;
+    padding: 2%;
+    font-weight: 200;
+
+    a {
+      color: #006B54;
+      text-decoration: none;
+    }
+    a:hover {
+      color: pink;
+    }
+
+    h5 {
+      margin: 0px;
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+    }
+    h6 {
+      font-size: 1rem;
+      margin: 8px;
+    }
+  }
 }
 .running-order {
   background: #FFAA7A;
@@ -243,24 +276,6 @@ p {
   img {
     margin: 80px;
     max-height: 320px;
-  }
-}
-.card {
-  float: left;
-  width: 21%;
-  margin-bottom: 40px;
-  font-size: 14px;
-  padding: 2%;
-  font-weight: 200;
-
-  h5 {
-    margin: 0px;
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-  }
-  h6 {
-    font-size: 1rem;
-    margin: 8px;
   }
 }
 
