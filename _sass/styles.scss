@@ -221,6 +221,9 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  img {
+    width: auto;
+  }
   h2 {
     font-size: 80px;
     line-height: 72px;
@@ -248,6 +251,7 @@ p {
   margin-bottom: 40px;
   font-size: 14px;
   padding: 2%;
+  font-weight: 200;
 
   h5 {
     margin: 0px;

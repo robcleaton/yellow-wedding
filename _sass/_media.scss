@@ -123,6 +123,9 @@ iframe.map {
       width: 100%;
     }
   }
+  .getting-here div {
+    margin: 20px 40px;
+  }
   .full-width.directions {
     flex-direction: column;
     border-top: 15px white;
@@ -132,8 +135,15 @@ iframe.map {
     height: 480px;
   }
   .running-order {
-    width: 100%;
-    padding: 48px;
+    width: auto;
+    padding: 38px;
+    img {
+      width: 90%;
+    }
+    ul {
+      font-size: 18px;
+      line-height: 36px;
+    }
   }
   .accommodation {
     padding: 20px !important;
