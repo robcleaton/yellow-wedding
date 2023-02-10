@@ -125,6 +125,9 @@ iframe.map {
   }
   .getting-here div {
     margin: 20px 40px;
+    ul {
+      margin-top: 0px;
+    }
   }
   .full-width.directions {
     flex-direction: column;
@@ -153,6 +156,17 @@ iframe.map {
     .card {
       width: 100%;
       padding: 0px;
+    }
+  }
+  .dress-code {
+    img {
+
+    }
+    .lead {
+      font-size: 18px;
+      margin: 28px;
+      margin-top: 4px;
+      padding: 10px 34px;
     }
   }
 
