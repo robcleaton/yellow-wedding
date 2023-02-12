@@ -222,12 +222,16 @@ p {
   }
   .card {
     float: left;
-    width: 21%;
-    margin-bottom: 40px;
+    width: 46%;
+    margin-bottom: 10px;
     font-size: 14px;
     padding: 2%;
     font-weight: 200;
+    text-align: left;
 
+    p {
+      text-align: left;
+    }
     a {
       color: #006B54;
       text-decoration: none;
@@ -258,13 +262,19 @@ p {
   img {
     width: 70%;
   }
+  b {
+    font-family: Blenny;
+    font-size: 38px;
+    margin-right: 20px;
+    color: #FB3F3F;
+  }
   h2 {
     font-size: 80px;
     line-height: 72px;
     color: #FB3F3F;
   }
   ul {
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
     padding-left: 0px;
     line-height: 40px;
