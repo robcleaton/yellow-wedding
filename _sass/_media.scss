@@ -146,6 +146,10 @@ iframe.map {
     ul {
       font-size: 18px;
       line-height: 36px;
+      b {
+        font-size: 32px;
+        margin-right: 12px;
+      }
     }
   }
   .accommodation {
@@ -156,6 +160,12 @@ iframe.map {
     .card {
       width: 100%;
       padding: 0px;
+      margin-bottom: 32px;
+
+      h5 {
+        font-size: 28px;
+        line-height: 28px;
+      }
     }
   }
   .dress-code {
